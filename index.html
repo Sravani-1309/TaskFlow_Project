@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - AI To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="darkModeToggle">Toggle Dark Mode</button>
+    <div class="container">
+        <h1>TaskFlow - AI To-Do List</h1>
+        <input type="text" id="taskInput" placeholder="Enter your task...">
+        <input type="date" id="deadlineInput">
+        <input type="time" id="timeInput">
+        <button onclick="addTask()">Add Task</button>
+        
+        <h2>Today's Tasks</h2>
+        <ul id="todayTaskList"></ul>
+        
+        <h2>Upcoming Tasks</h2>
+        <ul id="remainingTaskList"></ul>
+        
+        <h2>Completed Tasks</h2>
+        <ul id="completedTaskList"></ul>
+        
+        <h2>Uncompleted Tasks</h2>
+        <ul id="uncompletedTaskList"></ul>
+        
+        <h2>Task Insights</h2>
+        <p id="taskStats">No tasks added yet.</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
