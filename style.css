@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    background-color: #f4f4f4;
+    transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 550px;
+    margin: auto;
+    background: white;
+    transition: background 0.3s;
+}
+
+.dark-mode .container {
+    background: #1e1e1e;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #555;
+    border-radius: 8px;
+    font-size: 14px;
+    background: white;
+    color: black;
+    transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode input {
+    background: #333;
+    color: white;
+}
+
+button {
+    background: #6200ea;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #3700b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #ff9800;
+    padding: 15px;
+    margin: 8px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s, background 0.3s;
+    font-size: 16px;
+    color: white;
+}
+
+.dark-mode li {
+    background: #444;
+    color: white;
+}
+
+.task-details {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.complete-btn {
+    background-color: #03dac6;
+}
+
+.delete-btn {
+    background-color: #d50000;
+}
+
+.complete-btn, .delete-btn {
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.complete-btn:hover {
+    background: #00bfa5;
+}
+
+.delete-btn:hover {
+    background: #c51162;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid gray;
+    padding-bottom: 5px;
+}
+
+.dark-mode h2 {
+    color: white;
+    border-bottom: 2px solid white;
+}
