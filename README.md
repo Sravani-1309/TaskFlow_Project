@@ -5,10 +5,10 @@ Features:
 1.Task Management-
 Add tasks with title, deadline, and time.
 2.Automatically categorizes tasks into-
-Today's Tasks
-Upcoming Tasks
-Completed Tasks
-Uncompleted Tasks
+Today's Tasks,
+Upcoming Tasks,
+Completed Tasks,
+Uncompleted Tasks.
 3.Task Insights-
 Displays total tasks for today, upcoming, completed, and uncompleted categories.
 4.Dark Mode Support-
